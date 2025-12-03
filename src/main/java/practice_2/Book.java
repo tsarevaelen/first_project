@@ -1,4 +1,4 @@
-package practice_1;
+package practice_2;
 
 public class Book {
     public static void main(String[] args){
