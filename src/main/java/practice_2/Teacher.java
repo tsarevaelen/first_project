@@ -5,11 +5,6 @@ public class Teacher {
         Teacher man = new Teacher("Иванов", "Русский язык");
         System.out.println("Учитель: "+ man.name + ", предмет: " + man.subject);
 
-        man.getName();
-        System.out.println(man.name);
-
-        man.getSubject();
-        System.out.println(man.subject);
 
         man.setName("Иван Иванович Иванов");
         man.printInfo();

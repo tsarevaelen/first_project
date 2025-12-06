@@ -5,9 +5,6 @@ public class Car {
         System.out.println("Бренд:" + lada.brand);
         System.out.println("Год:" + lada.year);
 
-        lada.getBrand();
-        lada.print();
-
         lada.setBrand("Жигули");
         lada.print();
 

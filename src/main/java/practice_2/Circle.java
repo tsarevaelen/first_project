@@ -5,8 +5,6 @@ public class Circle {
         Circle o = new Circle(3);
         System.out.println("Радиус = " + o.radius);
 
-        o.getRadius();
-        System.out.println(o.radius);
 
         o.setRadius(4);
         System.out.println(o.radius);

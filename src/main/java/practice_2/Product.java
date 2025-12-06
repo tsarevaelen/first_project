@@ -5,11 +5,6 @@ public class Product {
         Product makarony = new Product("Барила", 100);
         System.out.println("Название: " + makarony.name + ", цена: " + makarony.price);
 
-        makarony.getName();
-        System.out.println(makarony.name);
-
-        makarony.getPrice();
-        System.out.println(makarony.price);
 
         makarony.setPrice(120);
         System.out.println(makarony.price);
@@ -44,7 +39,7 @@ public class Product {
     }
 
     public double applyDiscount(double discount, double price){
-        return (double) price * (discount / 100);
+        return (double) price - (price * discount / 100);
     }
 
     void printinfo(){

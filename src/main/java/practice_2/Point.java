@@ -5,12 +5,6 @@ public class Point {
         Point a = new Point(14.234, 11.123);
         System.out.println("Долгота: " + a.x + ", широта: " + a.y);
 
-        a.getX();
-        System.out.println(a.x);
-
-        a.getY();
-        System.out.println(a.y);
-
         a.setX(14.567);
         System.out.println(a.x);
 

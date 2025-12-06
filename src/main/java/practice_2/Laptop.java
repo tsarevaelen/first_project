@@ -5,12 +5,6 @@ public class Laptop {
         Laptop extra = new Laptop("lenovo", 80000);
         System.out.println("Название бренда: " + extra.brand + ", цена: " + extra.price);
 
-        extra.getBrand();
-        System.out.println(extra.brand);
-
-        extra.getPrice();
-        System.out.println(extra.price);
-
         extra.setBrand("Леново");
         System.out.println(extra.brand);
 

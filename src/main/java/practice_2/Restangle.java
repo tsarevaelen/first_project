@@ -5,11 +5,6 @@ public class Restangle {
         Restangle a = new Restangle(3, 2);
         a.print();
 
-        a.getWidth();
-        System.out.println(a.width);
-
-        a.getHeight();
-        System.out.println(a.height);
 
         a.setWidth(6);
         System.out.println(a.width);

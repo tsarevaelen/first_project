@@ -6,12 +6,6 @@ public class StudentGroup {
         System.out.println("Название группы: " + mgu.groupName);
         System.out.println("Количество студентов: " + mgu.studentCount);
 
-        mgu.getGroupName();
-        System.out.println(mgu.groupName);
-
-        mgu.getStudentCount();
-        System.out.println(mgu.studentCount);
-
         mgu.setGroupName("Государственное управление");
         System.out.println(mgu.groupName);
 

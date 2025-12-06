@@ -5,12 +5,6 @@ public class BankAccount {
         BankAccount man = new BankAccount("Ivanov", 1000);
         System.out.println("Владелец счета: " + man.owner + ", баланс: " + man.balance);
 
-        man.getOwner();
-        System.out.println(man.owner);
-
-        man.getBalance();
-        System.out.println(man.balance);
-
         man.setOwner("Иванов");
         System.out.println(man.owner);
 

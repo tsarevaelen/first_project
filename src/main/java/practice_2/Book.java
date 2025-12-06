@@ -5,12 +5,6 @@ public class Book {
         Book chaika = new Book("Чайка", "Чехов");
         System.out.println("Название книги: " + chaika.title + ", автор: " + chaika.author);
 
-        chaika.getTitle();
-        System.out.println(chaika.title);
-
-        chaika.getAuthor();
-        System.out.println(chaika.author);
-
         chaika.setTitle("Chaika");
         System.out.println(chaika.title);
 
