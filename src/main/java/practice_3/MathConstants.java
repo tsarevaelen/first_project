@@ -16,19 +16,19 @@ public class MathConstants {
         System.out.println("Длина окружности: " + Circumference1);
 
     }
-    final double PI = 3.14159;
-    final double E = 2.71828;
+    static final double PI = 3.14159;
+    static final double E = 2.71828;
     static double r = 2;
     static double r1 = 3;
 
 
 
     public static double calculateCircleArea(double r){
-        return (double) Math.PI * r * r;
+        return (double) PI * r * r;
     }
 
     public static double calculateCircumference(double r){
-        return (double) Math.PI * 2 * r;
+        return (double) PI * 2 * r;
     }
 
 }

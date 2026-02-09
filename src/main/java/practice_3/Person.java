@@ -10,8 +10,7 @@ public class Person {
         Person ilya = new Person("Ilya", "Tsarev", "456-456");
         ilya.printPersonInfo();
 
-        lena.getFirstName();
-        System.out.println(lena.firstName);
+        System.out.println(lena.getFirstName());
 
         lena.setFirstName("Elena");
         lena.printPersonInfo();
@@ -39,7 +38,7 @@ public class Person {
         return this.lastName;
     }
 
-    public String getSnn(){
+    public String getSsn(){
         return this.ssn;
     }
 

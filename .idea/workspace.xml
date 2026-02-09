@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5dd90fed-741e-4421-ad01-85522bac7e9b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice_3/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice_4/IfElseTasks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice_4/Switch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/DoWhileTaskSolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/ForTaskSolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/IfElseTaskSolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/Season.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/SwitchTaskSolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/WhileTaskSolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice_3/MathConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice_3/MathConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice_3/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice_3/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice_3/University.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice_3/University.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="39FdlKXrLvQHpz0tSDbLkxnwXVG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Company.executor": "Run",
+    "Application.MathConstants.executor": "Run",
+    "Application.Person.executor": "Run",
+    "Application.Switch.executor": "Run",
+    "Application.University.executor": "Run",
+    "Application.newIfElseTasks.executor": "Run",
+    "Application.newSwitch.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.University">
+    <configuration name="Company" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice_3.Company" />
+      <module name="first-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MathConstants" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice_3.MathConstants" />
+      <module name="first-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice_3.Person" />
+      <module name="first-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Switch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice_4.Switch" />
+      <module name="first-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice_4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Switch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice_4.Switch" />
+      <module name="first-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice_4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="University" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice_3.University" />
+      <module name="first-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.University" />
+        <item itemvalue="Application.Person" />
+        <item itemvalue="Application.MathConstants" />
+        <item itemvalue="Application.Company" />
+        <item itemvalue="Application.Switch" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5dd90fed-741e-4421-ad01-85522bac7e9b" name="Changes" comment="" />
+      <created>1770295904848</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1770295904848</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -11,7 +11,8 @@ public class University {
         University olya = new University(3, "Оля");
         olya.printStudentInfo();
 
-        University.universityName = "МГЮА";
+
+        University.changeUniversityName("МГЮА");
         kolya.printStudentInfo();
         misha.printStudentInfo();
         olya.printStudentInfo();
@@ -34,6 +35,10 @@ public class University {
 
     public String getStudentName(){
         return this.studentName;
+    }
+
+    static void changeUniversityName(String newUniversityName){
+        universityName = newUniversityName;
     }
 
 }
