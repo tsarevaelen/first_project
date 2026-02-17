@@ -9,7 +9,9 @@ public class Switch {
 //        System.out.println(ticketPrice());
 
         //System.out.println(newGrade());
-        System.out.println(answer());
+//        System.out.println(answer());
+
+        System.out.println(solution());
     }
 
 //    public static String dayOfWeek(){
@@ -115,32 +117,78 @@ public class Switch {
 //
 //    }
 
-    public static String answer(){
+//    public static String answer(){
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.print("Введите команду: ");
+//        String command = scanner.nextLine();
+//        String answer = "";
+//
+//        switch (command){
+//            case "start":
+//                answer = "Система start запущена";
+//                break;
+//            case "stop":
+//                answer = "Система stop запущена";
+//                break;
+//            case "restart":
+//                answer = "Система restart запущена";
+//                break;
+//            case "status":
+//                answer = "Система status запущена";
+//                break;
+//
+//            default:
+//                answer = "Ошибка системы";
+//
+//
+//        }
+//
+//        return answer;
+//    }
+
+    public static String solution(){
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Введите команду: ");
-        String command = scanner.nextLine();
-        String answer = "";
 
-        switch (command){
-            case "start":
-                answer = "Система start запущена";
-                break;
-            case "stop":
-                answer = "Система stop запущена";
-                break;
-            case "restart":
-                answer = "Система restart запущена";
-                break;
-            case "status":
-                answer = "Система status запущена";
+        System.out.print("Введите первое число: ");
+        String a = scanner.nextLine();
+
+        System.out.print("Введите оператор: ");
+        String operator = scanner.nextLine();
+
+        System.out.print("Введите второе число: ");
+        String b = scanner.nextLine();
+
+        int x = Integer.parseInt(a);
+        int y = Integer.parseInt(b);
+
+        if (x == 0){
+            return "Ошибка: первое число равно 0";
+        }
+
+
+        int c = 0;
+
+        switch(operator){
+            case "+":
+                c = x + y;
                 break;
 
-            default:
-                answer = "Ошибка системы";
+            case "-":
+                c = x - y;
+                break;
+
+            case "*":
+                c = x * y;
+                break;
+
+            case "/":
+                c = x / y;
+                break;
+
 
 
         }
-
-        return answer;
+       return "Результат операции: " + c;
     }
+
 }
