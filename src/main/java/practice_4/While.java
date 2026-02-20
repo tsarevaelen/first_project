@@ -46,8 +46,6 @@ public class While {
         System.out.print("Введите число для задачи 3: ");
         int n = scanner.nextInt();
 
-        int i = 1;
-
         while (1 <= n){
             System.out.println(n);
             n--;

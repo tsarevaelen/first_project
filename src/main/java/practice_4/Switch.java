@@ -96,10 +96,10 @@ public class Switch {
 //        int points = scanner.nextInt();
 //        String newGrade = "";
 //
-//        if(points >=90 & points <=100){
+//        if(points >=90 && points <=100){
 //            newGrade = "A";
 //        }
-//         else if(points >=80 & points <=89){
+//         else if(points >=80 && points <=89){
 //            newGrade = "B";
 //        }
 //         else if(points >=70 & points <=79) {
@@ -161,9 +161,7 @@ public class Switch {
         int x = Integer.parseInt(a);
         int y = Integer.parseInt(b);
 
-        if (x == 0){
-            return "Ошибка: первое число равно 0";
-        }
+
 
 
         int c = 0;
@@ -182,8 +180,14 @@ public class Switch {
                 break;
 
             case "/":
+                if (y==0) {
+                    return "Ошибка: деление на 0 невозможно";
+                }
                 c = x / y;
                 break;
+
+            default:
+                System.out.println("Неизвестная ошибка");
 
 
 

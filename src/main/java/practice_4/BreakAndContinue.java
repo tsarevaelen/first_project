@@ -12,22 +12,23 @@ public class BreakAndContinue {
     }
 
     public static void taskOneBreakAndContinue() {
-        int a;
-        int b;
         int sum = 0;
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Первое число: ");
-        a = scanner.nextInt();
 
-        System.out.print("Второе число: ");
-        b = scanner.nextInt();
 
-        while (a >= 0 & b >= 0) {
-            sum = a + b;
-            System.out.println("Сумма чисел = " + sum);
-            break;
+
+        while (true){
+            Scanner scanner = new Scanner(System.in);
+            System.out.print("Введите число: ");
+            int a = scanner.nextInt();
+            if (a<0){
+                break;
+            }
+            sum = sum + a;
         }
+
+        System.out.println("Сумма чисел = " + sum);
+
     }
 
     public static void taskTwoBreakAndContinue() {
