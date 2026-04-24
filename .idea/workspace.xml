@@ -5,7 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5dd90fed-741e-4421-ad01-85522bac7e9b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/Dispatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/Plane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/Ship.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/Transport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test2/Clothes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test2/Electronics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test2/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test2/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test2/Printable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/Company.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/DoWhileTaskSolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/ForTaskSolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/IfElseTaskSolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/Season.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/SwitchTaskSolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/WhileTaskSolver.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +34,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -31,31 +51,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BreakAndContinue.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Company.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DoWhile.executor&quot;: &quot;Run&quot;,
-    &quot;Application.For.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MathConstants.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Person.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Switch.executor&quot;: &quot;Run&quot;,
-    &quot;Application.University.executor&quot;: &quot;Run&quot;,
-    &quot;Application.While.executor&quot;: &quot;Run&quot;,
-    &quot;Application.newIfElseTasks.executor&quot;: &quot;Run&quot;,
-    &quot;Application.newSwitch.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BreakAndContinue.executor": "Run",
+    "Application.Company.executor": "Run",
+    "Application.DoWhile.executor": "Run",
+    "Application.For.executor": "Run",
+    "Application.Main.executor": "Debug",
+    "Application.MathConstants.executor": "Run",
+    "Application.Person.executor": "Run",
+    "Application.Switch.executor": "Run",
+    "Application.University.executor": "Run",
+    "Application.While.executor": "Run",
+    "Application.newIfElseTasks.executor": "Run",
+    "Application.newSwitch.executor": "Run",
+    "Application.test2.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
-  <component name="RunManager" selected="Application.Switch">
+}]]></component>
+  <component name="RunManager" selected="Application.test2.Main">
     <configuration name="BreakAndContinue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="practice_4.BreakAndContinue" />
       <module name="first-project" />
@@ -69,25 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoWhile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice_4.DoWhile" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Main" />
       <module name="first-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice_4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="For" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice_4.For" />
-      <module name="first-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice_4.*" />
+          <option name="PATTERN" value="test2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,13 +143,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test2.Main" />
+      <module name="first-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test2.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Switch" />
         <item itemvalue="Application.While" />
         <item itemvalue="Application.BreakAndContinue" />
-        <item itemvalue="Application.DoWhile" />
-        <item itemvalue="Application.For" />
       </list>
     </recent_temporary>
   </component>
@@ -153,5 +175,101 @@
       <updated>1770295904848</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/Dispatcher.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/Dispatcher.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/Car.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/Car.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/Plane.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/Plane.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/Ship.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/Ship.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/Main.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/Main.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/Main.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/Main.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/Main.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/Main.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/Main.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/Main.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
