@@ -4,50 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5dd90fed-741e-4421-ad01-85522bac7e9b" name="Changes" comment="">
+    <list default="true" id="5dd90fed-741e-4421-ad01-85522bac7e9b" name="Changes" comment="Изменила структуру на корректную, избавилась от ошибок">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice_1/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/practice_1/HelloWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice_1/MathOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/practice_1/MathOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice_2/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/practice_2/BankAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice_2/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/practice_2/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice_2/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/practice_2/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice_2/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/practice_2/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice_2/Laptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/practice_2/Laptop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice_2/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/practice_2/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice_2/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/practice_2/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice_2/Restangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/practice_2/Restangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice_2/StudentGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/practice_2/StudentGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice_2/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/practice_2/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice_3/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/practice_3/Company.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice_3/GameSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/practice_3/GameSettings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice_3/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/practice_3/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice_3/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/practice_3/LibraryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice_3/MathConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/practice_3/MathConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice_3/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/practice_3/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice_3/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/practice_3/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice_3/University.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/practice_3/University.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice_4/BreakAndContinue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/practice_4/BreakAndContinue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice_4/DoWhile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/practice_4/DoWhile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice_4/For.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/practice_4/For.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice_4/IfElseTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/practice_4/IfElseTasks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice_4/Switch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/practice_4/Switch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice_4/While.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/practice_4/While.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/test/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/Dispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/test/Dispatcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/test/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/Plane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/test/Plane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/Ship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/test/Ship.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/Transport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/test/Transport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test2/Clothes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/test2/Clothes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test2/Electronics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/test2/Electronics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test2/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/test2/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/test2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test2/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/test2/Manager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test2/Printable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/test2/Printable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/practice_5/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/practice_5/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/practice_5/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/practice_5/Bird.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/practice_5/Elephant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/practice_5/Elephant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/practice_5/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/practice_5/Zoo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/main/practice_5/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/practice_5/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/main/practice_5/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/practice_5/Bird.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/main/practice_5/Elephant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/practice_5/Elephant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/main/practice_5/Zoo.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,36 +36,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BankAccount.executor": "Run",
-    "Application.BreakAndContinue.executor": "Run",
-    "Application.Company.executor": "Run",
-    "Application.DoWhile.executor": "Run",
-    "Application.For.executor": "Run",
-    "Application.HelloWorld.executor": "Run",
-    "Application.Main.executor": "Debug",
-    "Application.MathConstants.executor": "Run",
-    "Application.Person.executor": "Run",
-    "Application.Switch.executor": "Run",
-    "Application.University.executor": "Run",
-    "Application.While.executor": "Run",
-    "Application.java.practice_1.HelloWorld.executor": "Run",
-    "Application.newIfElseTasks.executor": "Run",
-    "Application.newSwitch.executor": "Run",
-    "Application.test2.Main.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Пользователь/IdeaProjects/first-project/src/main/main/java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BankAccount.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BreakAndContinue.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Company.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DoWhile.executor&quot;: &quot;Run&quot;,
+    &quot;Application.For.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HelloWorld.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MathConstants.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Person.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Switch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.University.executor&quot;: &quot;Run&quot;,
+    &quot;Application.While.executor&quot;: &quot;Run&quot;,
+    &quot;Application.java.practice_1.HelloWorld.executor&quot;: &quot;Run&quot;,
+    &quot;Application.newIfElseTasks.executor&quot;: &quot;Run&quot;,
+    &quot;Application.newSwitch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.test2.Main.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Пользователь/IdeaProjects/first-project/src/main/main/java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Пользователь\IdeaProjects\first-project\src\main\main\java" />
@@ -206,7 +168,31 @@
       <option name="presentableId" value="Default" />
       <updated>1770295904848</updated>
     </task>
+    <task id="LOCAL-00001" summary="Изменила структуру на корректную, избавилась от ошибок">
+      <option name="closed" value="true" />
+      <created>1782483256938</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1782483256938</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Изменила структуру на корректную, избавилась от ошибок" />
+    <option name="LAST_COMMIT_MESSAGE" value="Изменила структуру на корректную, избавилась от ошибок" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
