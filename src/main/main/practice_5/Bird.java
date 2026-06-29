@@ -6,7 +6,13 @@ public class Bird extends Animal {
     }
 
     @Override
-    void add() {
-        System.out.println("Птица добавлена в зоопарк");
+    void makesounds() {
+        System.out.println("Птица чирикает");
+    }
+
+    @Override
+    void move() {
+        System.out.println("Птица летает");
+
     }
 }

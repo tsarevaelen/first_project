@@ -1,4 +1,4 @@
 package practice_5;
 
-public class Manager {
+public class Zoo {
 }
