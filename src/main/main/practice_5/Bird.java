@@ -6,13 +6,13 @@ public class Bird extends Animal {
     }
 
     @Override
-    void makesounds() {
-        System.out.println("Птица чирикает");
+    public String makeSound() {
+        return "чирикает";
     }
 
     @Override
-    void move() {
-        System.out.println("Птица летает");
+    public String move() {
+        return "летает";
 
     }
 }

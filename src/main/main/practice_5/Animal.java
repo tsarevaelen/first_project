@@ -1,21 +1,24 @@
 package practice_5;
 
 public abstract class Animal {//1. создание нового класса с приватными полями
-    private String movement;
-    private String sounds;
+    private String species;
+    private int age;
 
-    public String getMovement() {// 2. создает геттеры для внутреннего доступа и далее создаем наследников
-        return this.movement;
+    public String getSpecies() {// 2. создает геттеры для внутреннего доступа и далее создаем наследников
+        return this.species;
     }
 
-    public String getSounds() {
-        return sounds;
+    public int getAge() {
+        return age;
     }
 
-    abstract void makesounds();//5.создаем абстрактный методы.
+    abstract String makeSound();//5.создаем абстрактный методы.
     // после этого во всех наследниках появятся ошибки
     // - имплемент метод
-    abstract void move();//5. тоже самое делаем с другим методом
+    abstract String move();
+    //5. тоже самое делаем с другим методом
+
+
 
 
 }

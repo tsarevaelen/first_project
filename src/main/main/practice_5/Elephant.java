@@ -5,14 +5,14 @@ public class Elephant extends Animal{ //3. создаем наследников
         super("Слон", 2);
     }
 
-    @Override
-    void makesounds() {
-        System.out.println("Слон трубит");//6. автоматически появилась конструкцичя(тело метода)
+    @Override//6. автоматически появилась конструкцичя(тело метода)
+    public String makeSound() {
+        return "трубит";//7.
     }
 
     @Override
-    void move() {
-        System.out.println("Слон ходит");
+    public String move() {
+        return "ходит";//7. Распечатываем метод move
 
     }
 }
