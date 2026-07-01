@@ -1,4 +1,4 @@
-package practice_5;
+package practice_5.zoo;
 
 public class Bird extends Animal {
     public Bird(){

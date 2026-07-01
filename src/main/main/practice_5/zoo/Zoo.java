@@ -1,4 +1,4 @@
-package practice_5;
+package practice_5.zoo;
 
 public class Zoo {//8. создаем новый класс для управления
 
@@ -9,7 +9,8 @@ public class Zoo {//8. создаем новый класс для управл�
         System.out.println("Животное успешно добавлено в зоопарк");
     }
 
-    public void demonstrateBehavior(){
+    public void demonstrateBehavior(){// 10. создаем доп метод
+        //по распечатыванию вида и возраста животного
         currentAnimal.move();
         System.out.println("Животное " + currentAnimal.makeSound() + " животное  " + currentAnimal.move());
     }
