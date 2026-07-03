@@ -2,7 +2,7 @@ package practice_5.pets;
 
 public class Dog extends Pet { //4. создаю наследников ключевым словом extends
     public Dog(){//5. создание дефолтного конструктора без аргументов
-        super();
+        super("ест сухой корм", "гуляет");
     }
 
     @Override

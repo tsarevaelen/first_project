@@ -1,17 +1,22 @@
 package practice_5.pets;
 
 public abstract class Pet {//1. создаю новый абстрактный класс
-    private String name;// 2. сразу добавляю приватные поля
-    private int age;
+    private String feed;// 2. сразу добавляю приватные поля
+    private String interact;
 
-
-    public String getName(){//3. реализую геттеры для внутреннего доступа
-        // (теперь есть доступ к чтению,без изменений)
-        return name;
+    public Pet (String feed, String interact){
+        this.feed = feed;
+        this.interact = interact;
     }
 
-    public int getAge() {
-        return age;
+
+    public String getFeed(){//3. реализую геттеры для внутреннего доступа
+        // (теперь есть доступ к чтению,без изменений)
+        return feed;
+    }
+
+    public String getInteract() {
+        return interact;
     }
 
     abstract void feed();// 6. создаю абстрактные методы

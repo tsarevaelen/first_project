@@ -4,7 +4,9 @@ public class PetManager {//9. создаю новый класс для упра
 
 
      void handlePet(Pet pet){
-        pet.feed();
+
+        System.out.println("Животное " + pet.getFeed() + " и " + pet.getInteract());// 10. создание доп
+         // метода по распечатыванию
 
     }
 }

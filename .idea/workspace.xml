@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5dd90fed-741e-4421-ad01-85522bac7e9b" name="Changes" comment="Изменила структуру на корректную, избавилась от ошибок">
-      <change afterPath="$PROJECT_DIR$/src/main/main/practice_5/pets/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/main/practice_5/pets/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/main/practice_5/pets/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/main/practice_5/pets/PetManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/main/practice_5/zoo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/main/practice_5/pets/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/main/practice_5/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/practice_5/zoo/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/main/practice_5/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/practice_5/zoo/Bird.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/main/practice_5/Elephant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/practice_5/zoo/Elephant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/main/practice_5/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/practice_5/zoo/Zoo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/main/practice_5/pets/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/practice_5/pets/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/main/practice_5/pets/PetManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/practice_5/pets/PetManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +52,7 @@
     "Application.java.practice_1.HelloWorld.executor": "Run",
     "Application.newIfElseTasks.executor": "Run",
     "Application.newSwitch.executor": "Run",
+    "Application.practice_5.pets.Main.executor": "Run",
     "Application.test2.Main.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -76,20 +71,7 @@
       <recent name="C:\Users\Пользователь\IdeaProjects\first-project\src\main\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="BankAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice_2.BankAccount" />
-      <module name="first-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice_2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.practice_5.pets.Main">
     <configuration name="BreakAndContinue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="practice_4.BreakAndContinue" />
       <module name="first-project" />
@@ -142,13 +124,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="practice_5.pets.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice_5.pets.Main" />
+      <module name="first-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice_5.pets.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.practice_5.pets.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.java.practice_1.HelloWorld" />
         <item itemvalue="Application.BreakAndContinue" />
         <item itemvalue="Application.HelloWorld" />
-        <item itemvalue="Application.BankAccount" />
       </list>
     </recent_temporary>
   </component>

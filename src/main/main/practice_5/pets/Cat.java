@@ -2,7 +2,7 @@ package practice_5.pets;
 
 public class Cat extends Pet {
     public Cat(){
-        super();
+        super("ест влажный корм", "играет");
     }
 
     @Override
