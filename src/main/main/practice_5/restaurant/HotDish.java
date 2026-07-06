@@ -15,7 +15,7 @@ public class HotDish extends Dish {// 5. создаю новый класс "Г�
     @Override
     public void print(){
         super.print();
-        System.out.println(", температура блюда: " + this.temperature + " градусов");
+        System.out.println("Температура блюда: " + this.temperature + " градусов");
         //19. прописываем то
         //что надо распечатать и перехожим к напиткам
     }

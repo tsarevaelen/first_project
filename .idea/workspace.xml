@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5dd90fed-741e-4421-ad01-85522bac7e9b" name="Changes" comment="Изменила структуру на корректную, избавилась от ошибок">
-      <change afterPath="$PROJECT_DIR$/src/main/main/practice_5/restaurant/Dish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/main/practice_5/restaurant/Drink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/main/practice_5/restaurant/HotDish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/main/practice_5/restaurant/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/main/practice_5/restaurant/Printable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/main/practice_5/restaurant/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/main/practice_5/restaurant/Dish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/practice_5/restaurant/Dish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/main/practice_5/restaurant/Drink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/practice_5/restaurant/Drink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/main/practice_5/restaurant/HotDish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/practice_5/restaurant/HotDish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/main/practice_5/restaurant/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/practice_5/restaurant/Menu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +55,7 @@
     "Application.newIfElseTasks.executor": "Run",
     "Application.newSwitch.executor": "Run",
     "Application.practice_5.pets.Main.executor": "Run",
+    "Application.practice_5.restaurant.Main.executor": "Run",
     "Application.test2.Main.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -73,26 +74,13 @@
       <recent name="C:\Users\Пользователь\IdeaProjects\first-project\src\main\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.practice_5.pets.Main">
+  <component name="RunManager" selected="Application.practice_5.restaurant.Main">
     <configuration name="BreakAndContinue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="practice_4.BreakAndContinue" />
       <module name="first-project" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="practice_4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice_1.HelloWorld" />
-      <module name="first-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,13 +127,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="practice_5.restaurant.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice_5.restaurant.Main" />
+      <module name="first-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice_5.restaurant.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.practice_5.restaurant.Main" />
         <item itemvalue="Application.practice_5.pets.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.java.practice_1.HelloWorld" />
         <item itemvalue="Application.BreakAndContinue" />
-        <item itemvalue="Application.HelloWorld" />
       </list>
     </recent_temporary>
   </component>
