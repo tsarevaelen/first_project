@@ -7,7 +7,7 @@ public class Elephant extends Animal {
     }
 
     @Override
-    void move() {
+    void makeMove() {
         System.out.println("Ходит");
 
     } //3. создаем наследников

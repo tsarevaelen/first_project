@@ -2,12 +2,20 @@ package practice_5.zoo;
 
 public class Main {//13. создаем класс мейн
     public static void main(String[] args){// 14. сразу точку входа в программу
-        Animal elephant = new Elephant(); //15. создаем животных
-        Animal bird = new Bird();
+         //15. создаем животных
+
         Zoo zoo = new Zoo();// 16. создаем зоопарк
 
+        Animal elephant = new Elephant();
         zoo.addAnimal(elephant); // 17. добавь животного, котого я передала в аргументах
-        zoo.demonstrateBehavior(); //18. выведи поведение этого животного
+        zoo.forceMakeSound(); //18. выведи поведение этого животного
+        zoo.forceMakeMove();
+        zoo.removeAnimal();
+
+        Animal calibri = new Bird();
+        zoo.addAnimal(calibri);
+        zoo.forceMakeSound();
+        zoo.forceMakeMove();
 
 
     }
