@@ -1,10 +1,10 @@
 package practice_5.aquarium;
 
-public class Aquarium {
+public abstract class Creature {
     private String species;
     private String move;
 
-    public Aquarium(String species, String move){
+    public Creature(String species, String move){
         this.species = species;
         this.move = move;
     };
@@ -17,6 +17,6 @@ public class Aquarium {
         return move;
     }
 
-    @Override
+abstract void demoBehaviour();
 
 }

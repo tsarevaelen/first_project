@@ -1,10 +1,14 @@
 package practice_5.aquarium;
 
-public class Shark extends Aquarium {
+public class Shark extends Creature {
 
-    public Shark(String species, String move) {
-        super(species, move);
+    public Shark() {
+        super("Акула", "плавает быстро и агрессивно");
     }
 
 
+    @Override
+    void demoBehaviour() {
+        System.out.println("Акула плавает быстро и агрессивно");
+    }
 }

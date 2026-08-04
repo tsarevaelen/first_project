@@ -1,18 +1,16 @@
 package practice_5.zoo;
 
 public class Bird extends Animal {
-    public Bird(){
-        super("Птица", 1);
+
+
+    @Override
+    void makeSound() {
+        System.out.println("Чирик");
     }
 
     @Override
-    public String makeSound() {
-        return "чирикает";
-    }
-
-    @Override
-    public String move() {
-        return "летает";
+    void move() {
+        System.out.println("Летать");
 
     }
 }

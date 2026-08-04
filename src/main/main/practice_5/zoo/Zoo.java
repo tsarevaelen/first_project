@@ -2,16 +2,15 @@ package practice_5.zoo;
 
 public class Zoo {//8. создаем новый класс для управления
 
-    private Animal currentAnimal;
+    private Animal animal;
 
     public void addAnimal(Animal animal){//9. создаем метод в котором добавляем животное
-        this.currentAnimal = animal;
+        this.animal = animal;
         System.out.println("Животное успешно добавлено в зоопарк");
     }
 
-    public void demonstrateBehavior(){// 10. создаем доп метод
+    public void forceMakeSound(){// 10. создаем доп метод
         //по распечатыванию вида и возраста животного
-        currentAnimal.move();
-        System.out.println("Животное " + currentAnimal.makeSound() + " животное  " + currentAnimal.move());
+        this.animal.makeSound();
     }
 }
