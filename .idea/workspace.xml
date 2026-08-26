@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5dd90fed-741e-4421-ad01-85522bac7e9b" name="Changes" comment="Изменила структуру на корректную, избавилась от ошибок">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/main/practice_5/zoo/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/practice_5/zoo/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/main/practice_5/zoo/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/practice_5/zoo/Bird.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/main/practice_5/zoo/Elephant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/practice_5/zoo/Elephant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/main/practice_5/zoo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/practice_5/zoo/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/main/practice_5/zoo/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/practice_5/zoo/Zoo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

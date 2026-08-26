@@ -1,8 +1,8 @@
 package practice_5.zoo;
 
-public class Zoo {//8. создаем новый класс для управления
+public class Zoo {//7. создаем новый класс для управления
 
-    private Animal animal;
+    private Animal animal; //8. создаем приватное поле
 
     public void addAnimal(Animal animal){//9. создаем метод в котором добавляем животное
         this.animal = animal;
