@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="5dd90fed-741e-4421-ad01-85522bac7e9b" name="Changes" comment="Изменила структуру на корректную, избавилась от ошибок">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/main/practice_5/zoo/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/practice_5/zoo/Zoo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/main/practice_5/pets/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/practice_5/pets/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/main/practice_5/pets/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/practice_5/pets/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/main/practice_5/pets/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/practice_5/pets/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/main/practice_5/pets/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/practice_5/pets/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/main/practice_5/pets/PetManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/practice_5/pets/PetManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +77,7 @@
       <recent name="C:\Users\Пользователь\IdeaProjects\first-project\src\main\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.practice_5.pets.Main">
     <configuration name="BreakAndContinue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="practice_4.BreakAndContinue" />
       <module name="first-project" />
@@ -141,8 +145,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.practice_5.pets.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.practice_5.restaurant.Main" />
         <item itemvalue="Application.java.practice_1.HelloWorld" />
         <item itemvalue="Application.BreakAndContinue" />

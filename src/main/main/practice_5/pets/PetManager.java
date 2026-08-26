@@ -1,12 +1,23 @@
 package practice_5.pets;
 
-public class PetManager {//9. создаю новый класс для управления питомцами
+public class PetManager {
+    private Pet pet;
 
+    public void addPet(Pet pet) {
+        this.pet = pet;
+        System.out.println("Животное " + pet + " появилось у хозяина");
+    }
 
-     void handlePet(Pet pet){
+    public void forceMakeEat() {
+        this.pet.makeEat();
+    }
 
-        System.out.println("Животное " + pet.getFeed() + " и " + pet.getInteract());// 10. создание доп
-         // метода по распечатыванию
+    public void forceMakeMove(){
+        this.pet.makeMove();
+    }
 
+    public void deathPet(){
+        System.out.println("Питомец " + pet + " скончался");
+        this.pet = null;
     }
 }

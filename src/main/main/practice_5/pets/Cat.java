@@ -1,18 +1,15 @@
 package practice_5.pets;
 
 public class Cat extends Pet {
-    public Cat(){
-        super("ест влажный корм", "играет");
+
+    @Override
+    void makeEat() {
+        System.out.println("Ест влажный корм");
     }
 
     @Override
-    void feed() {
-        System.out.println("ест влажный корм");
-    }
-
-    @Override
-    void interact() {
-        System.out.println("играет");
+    void makeMove() {
+        System.out.println("Играет");
 
     }
 }
