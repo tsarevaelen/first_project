@@ -1,13 +1,8 @@
 package practice_5.aquarium;
 
-public class Starfish extends Creature {
-    public Starfish(String species, String move) {
-        super("Морская звезда", "медленно ползает");
-    }
-
+public class Starfish extends Creature implements Crawling {
     @Override
-    void demoBehaviour() {
+    public void crawl() {
         System.out.println("Морская звезда медленно ползает");
-
     }
 }

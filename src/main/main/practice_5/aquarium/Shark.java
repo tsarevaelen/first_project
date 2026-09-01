@@ -1,14 +1,8 @@
 package practice_5.aquarium;
 
-public class Shark extends Creature {
-
-    public Shark() {
-        super("Акула", "плавает быстро и агрессивно");
-    }
-
-
+public class Shark extends Creature implements Floating {
     @Override
-    void demoBehaviour() {
+    public void swim() {
         System.out.println("Акула плавает быстро и агрессивно");
     }
 }

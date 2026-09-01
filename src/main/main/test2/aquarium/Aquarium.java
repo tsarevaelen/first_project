@@ -1,4 +1,4 @@
-package practice_5.aquarium;
+package test2.aquarium;
 
 public class Aquarium {
 
