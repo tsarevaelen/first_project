@@ -14,7 +14,7 @@ int sum1 = sum(1,2);
         System.out.println("Результат умножения:" + mult1);
 
         int sub1 = substruct(10,2);
-        System.out.println("Результат вычетания:" + sub1);
+        System.out.println("Результат вычетания в студию: " + sub1);
 
         double div1 = divide(3,2);
         System.out.println("Результат деления:" + div1);
@@ -22,7 +22,6 @@ int sum1 = sum(1,2);
 public static int sum(int x, int y){
     return x + y;
 }
-
 public static int multiply(int p, int k){
         int mult = p * k;
         return mult;
@@ -31,6 +30,7 @@ public static int multiply(int p, int k){
 public static int substruct(int c, int d){
         int sub = c - d;
         return sub;
+
 }
 
 public static double divide(int e, int f){
