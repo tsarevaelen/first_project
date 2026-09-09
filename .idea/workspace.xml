@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5dd90fed-741e-4421-ad01-85522bac7e9b" name="Changes" comment="Изменила структуру на корректную, избавилась от ошибок">
-      <change afterPath="$PROJECT_DIR$/src/main/main/practice_5/museum/Exhibit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/main/practice_5/museum/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/main/practice_5/museum/Manuscript.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/main/practice_5/museum/Sculpture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/main/practice_5/museum/SystemMuseum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/main/practice_5/park/Attraction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/main/practice_5/park/Carousel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/main/practice_5/park/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/main/practice_5/park/RollerCoaster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/main/practice_5/park/SystemPark.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5dd90fed-741e-4421-ad01-85522bac7e9b" name="Changes" comment="Изменила структуру на корректную, избавилась от ошибок" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
